@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    color: rgb(37, 11, 156);
+}
+input{
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    size:5vh ;
+    width: 19pc;
+    box-sizing: border-box;
+    font-size: large;
+}
+section #name{
+    margin-bottom: 0.5rem;
+    color: blue;
+}
+::placeholder{
+    margin: 0.5rem;
+    color: blue;
+}
+
+    #avatar{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 5pv;
+        object-fit: cover;
+        color:rgb(45, 45, 226);
+        font-size: large;
+    }

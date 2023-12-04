@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div class="user-input">
+            <label for="program">Program of Study:</label>
+            <input type="text" id="program" placeholder="Enter program">
+
+            <label for="year">Year of Entry:</label>
+            <input type="text" id="year" placeholder="Enter year">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter name">
+
+            <label for="studentNumber">Student Number:</label>
+            <input type="text" id="studentNumber" placeholder="Enter student number">
+
+            <label for="galleryInput">Choose Photo:</label>
+            <input type="file" id="galleryInput" accept="image/*">
+        </div>
+    <button onclick="generateStudentCard()">submit</button>
+    
+
+    <div id="user-container"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
